@@ -1,0 +1,16 @@
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.header .rotate {
+  animation: rotation 20s linear infinite;
+ }
+
+ .kaufman .rotate {
+  animation: rotation 25s linear infinite;
+ }
